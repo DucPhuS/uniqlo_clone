@@ -5,12 +5,13 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 
 import HomePage from './HomePage.jsx'
 import CartPage from './CartPage.jsx';
+import NotFoundPage from './NotFoundPage.jsx';
 
 
 const router = createBrowserRouter([{
   path: '/',
   element: <HomePage/>,
-  errorElement: <div>404 Not Found</div>
+  errorElement:<NotFoundPage/>,
   },
   {
     path: '/cart',
