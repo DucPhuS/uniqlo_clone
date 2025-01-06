@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 export default function PageHeaders(){
-    return(<div className="sticky top-0 z-40 pt-3 flex flex-row items-center justify-evenly">
+    return(<div className="sticky top-0 z-40 pt-3 flex flex-row items-center justify-evenly -m-7">
         <a className="w-[75px]">
             <img src="\src\assets\Uniqlo-Logo-500x281.png" alt="uniqlo-logo" className=""></img>
         </a>
