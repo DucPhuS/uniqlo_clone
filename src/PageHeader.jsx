@@ -1,33 +1,33 @@
-
+import { Link } from 'react-router-dom';
 
 export default function PageHeaders(){
-    return(<>
-        <a>
+    return(<div className="sticky top-0 z-40 pt-3 flex flex-row items-center justify-evenly">
+        <a className="w-[75px]">
             <img src="\src\assets\Uniqlo-Logo-500x281.png" alt="uniqlo-logo" className=""></img>
         </a>
-        <div>
-            <a>
-                <p>
-                    Nữ
+        <div className="flex flex-row items-center gap-3 text-xl text-white">
+            <Link to="/">
+                <p className="">
+                    NỮ
                 </p>
-            </a>
-            <a>
+            </Link>
+            <Link>
                 <p>
-                    Nam
+                    NAM
                 </p>
-            </a>
-            <a>
+            </Link>
+            <Link>
                 <p>
-                    Trẻ em
+                    TRẺ EM
                 </p>
-            </a>
-            <a>
+            </Link>
+            <Link>
                 <p>
-                    Em bé
+                    EM BÉ
                 </p>
-            </a>
+            </Link>
         </div>
-        <div>
+        <div className="flex flex-row">
             <a>
                 <img alt="Ngôn ngữ"></img>
             </a>
@@ -39,5 +39,5 @@ export default function PageHeaders(){
             </a>
         </div>
     
-    </>)
+    </div>)
 }
