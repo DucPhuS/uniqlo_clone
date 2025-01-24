@@ -12,6 +12,9 @@ export default {
       width: {
         'custom': 'calc(100vw - 4.5rem)'
       },
+      fontFamily: {
+        'helvetica': ['Helvetica Neue', 'Arial', 'sans-serif'],
+      },
   },
   plugins: [],
 }

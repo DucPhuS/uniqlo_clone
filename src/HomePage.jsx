@@ -1,13 +1,13 @@
-import ScrollPage from "./GalleryWomen"
 import PageHeaders from "./PageHeader"
-
+import PageSlider from "./ScrollPage"
+import './input.css'
 
 function HomePage() {
 
   return (
     <div className="overflow-y-scroll no-scrollbar">
       <PageHeaders/>
-      <ScrollPage/>
+      <PageSlider/>
     </div>
   )
 }

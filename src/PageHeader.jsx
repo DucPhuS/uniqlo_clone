@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
-
+import Tab from './GalleryWomen';
 export default function PageHeaders(){
     return(
-    <div className='relative z-10'>
-        <div className='pt-3 z-10 bg-transparent'>
-            <nav className="pt-0 z-10 bg-transparent ml-auto mr-auto h-auto max-w-custom w-custom">
+    <div className='relative bg-black overflow-x-scroll no-scrollbar'>
+        <div className='pt-3 bg-transparent h-screen'>
+            <nav className="pt-0 bg-transparent ml-auto mr-auto h-auto max-w-custom w-custom relative z-10">
                 <div className='relative flex flex-row align-top items-center h-auto bg-transparent'>
                     <div className="w-[76.5px] mr-auto flex-grow-0">
                         <Link to="/" >
@@ -36,6 +36,7 @@ export default function PageHeaders(){
                     </div>
                 </div>
             </nav>
+            <Tab/>
         </div>
     </div>)
 }
